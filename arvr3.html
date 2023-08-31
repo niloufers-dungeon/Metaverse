@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene>
+    <!-- 360-degree image for the room background -->
+    <a-sky src="https://github.com/niloufers-dungeon/image.git"></a-sky>
+    
+    <!-- Shelves -->
+    <a-entity position="0 0 -5">
+      <!-- Shelf 1 -->
+      <a-box position="-3 0 0" color="brown" depth="0.1" height="1" width="8"></a-box>
+      <!-- Shelf 2 -->
+      <a-box position="-3 1 0" color="brown" depth="0.1" height="1" width="8"></a-box>
+      <!-- Shelf 3 -->
+      <a-box position="-3 2 0" color="brown" depth="0.1" height="1" width="8"></a-box>
+      <!-- Shelf 4 -->
+      <a-box position="-3 3 0" color="brown" depth="0.1" height="1" width="8"></a-box>
+      
+      <!-- Books on Shelves -->
+      <!-- Shelf 1, Book 1 -->
+      <a-box position="-5 0.5 0.05" color="blue" depth="0.2" height="0.8" width="0.5">
+        <a-link href="https://shorturl.at/rxFJ9"></a-link>
+      </a-box>
+      <!-- Shelf 1, Book 2 -->
+      <a-box position="-5 0.5 0.05" color="yellow" depth="0.2" height="0.8" width="0.5">
+        <a-link href="https://shorturl.at/eqyR2"></a-link>
+      
+      <!-- Shelf 2, Book 1 -->
+      <a-box position="-5 0.5 0.05" color="green" depth="0.2" height="0.8" width="0.5">
+        <a-link href="https://shorturl.at/eqyR2"></a-link>
+      <!-- Shelf 2, Book 2 -->
+      <a-box position="-5 0.5 0.05" color="yellow" depth="0.2" height="0.8" width="0.5">
+        <a-link href="https://shorturl.at/eqyR2"></a-link>
+      
+      <!-- Shelf 3, Book 1 -->
+      <a-box position="-5 0.5 0.05" color="blue" depth="0.2" height="0.8" width="0.5">
+        <a-link href="https://shorturl.at/rxFJ9"></a-lin k>
+      <!-- Shelf 3, Book 2 -->
+      <a-box position="-5 0.5 0.05" color="yellow" depth="0.2" height="0.8" width="0.5">
+        <a-link href="https://shorturl.at/eqyR2"></a-link>
+      
+      <!-- Shelf 4, Book 1 -->
+      <a-box position="-5 0.5 0.05" color="black" depth="0.2" height="0.8" width="0.5">
+        <a-link href="https://shorturl.at/dCGQ8"></a-link>
+      <!-- Shelf 4, Book 2 -->
+      <a-box position="-5 0.5 0.05" color="yellow" depth="0.2" height="0.8" width="0.5">
+        <a-link href="https://shorturl.at/eqyR2"></a-link> 
+   
+    <!-- Tags for Book Names -->
+    <!-- Shelf 1, Book 1 Tag -->
+    <a-text value="Pride and Prejudice" position="-5 0.2 0.1" color="black" align="center"></a-text>
+   
+  </a-scene>
+</body>
+</html>
